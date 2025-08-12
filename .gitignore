@@ -27,5 +27,3 @@ yarn-error.log*
 *.crx
 *.pem
 *.zip
-
-yarn.lock
