@@ -7,5 +7,6 @@
 ## 订阅地址
 
 - [默认全局] https://allentown521.github.io/kiss-rules/kiss-rules.json
+  是否默认开启翻译跟随全局
 - [默认开启] https://allentown521.github.io/kiss-rules/kiss-rules-on.json
 - [默认关闭] https://allentown521.github.io/kiss-rules/kiss-rules-off.json
