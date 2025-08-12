@@ -6,6 +6,6 @@
 
 ## 订阅地址
 
-- [默认全局] https://fishjar.github.io/kiss-rules/kiss-rules.json
-- [默认开启] https://fishjar.github.io/kiss-rules/kiss-rules-on.json
-- [默认关闭] https://fishjar.github.io/kiss-rules/kiss-rules-off.json
+- [默认全局] https://allentown521.github.io/kiss-rules/kiss-rules.json
+- [默认开启] https://allentown521.github.io/kiss-rules/kiss-rules-on.json
+- [默认关闭] https://allentown521.github.io/kiss-rules/kiss-rules-off.json
