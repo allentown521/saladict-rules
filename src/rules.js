@@ -323,7 +323,7 @@ const onRules = rules.map((rule) => ({ ...rule, transOpen: "true" }));
 const offRules = rules.map((rule) => ({ ...rule, transOpen: "false" }));
 
 export default {
-  "kiss-rules": rules,
-  "kiss-rules-on": onRules,
-  "kiss-rules-off": offRules,
+  "rules": rules,
+  "rules-on": onRules,
+  "rules-off": offRules,
 };
