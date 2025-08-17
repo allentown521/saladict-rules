@@ -5,7 +5,7 @@ const FIXER_BN_DIV = "bnToDiv";
 
 const GLOBAL_KEY = "*";
 
-const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .kiss-p)`;
+const DEFAULT_SELECTOR = `:is(li, p, h1, h2, h3, h4, h5, h6, dd, blockquote, .saladict-p)`;
 const DEFAULT_KEEP_SELECTOR = `code, img, svg, pre, a:has(code)`;
 const DEFAULT_RULE = {
   pattern: "", // 匹配网址
@@ -176,13 +176,13 @@ const RULES_MAP = {
     fixerFunc: FIXER_BR,
   },
   "web.telegram.org/k": {
-    selector: `div.kiss-p`,
+    selector: `div.saladict-p`,
     keepSelector: `div[class^=time], .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element, reactions-element`,
     fixerSelector: `.message`,
     fixerFunc: FIXER_BN_DIV,
   },
   "web.telegram.org/a": {
-    selector: `.text-content > .kiss-p`,
+    selector: `.text-content > .saladict-p`,
     keepSelector: `.Reactions, .time, .peer-title, .document-wrapper, .message.spoilers-container custom-emoji-element`,
     fixerSelector: `.text-content`,
     fixerFunc: FIXER_BR_DIV,
@@ -207,7 +207,7 @@ const RULES_MAP = {
     fixerFunc: FIXER_BN,
   },
   "forum.ru-board.com": {
-    selector: `.tit, .dats, .kiss-p, .lgf ${DEFAULT_SELECTOR}`,
+    selector: `.tit, .dats, .saladict-p, .lgf ${DEFAULT_SELECTOR}`,
     fixerSelector: `span.post`,
     fixerFunc: FIXER_BR,
   },
